@@ -1,0 +1,131 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 20px;
+    background-color: Gainsboro;
+}
+
+h1, h2 {
+    color: DimGray;
+    text-align: center;
+}
+
+/* Task Form Styles */
+.form-container {
+    max-width: 400px;
+    margin-top: 20px;
+    padding: 20px;
+    background-color: White;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    margin: auto;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    color: DimGray;
+}
+
+input[type="text"], textarea {
+    width: 100%;
+    padding: 8px 0px;
+    margin-bottom: 12px;
+    border: 1px solid LightGray;
+    border-radius: 4px;
+}
+
+button {
+    background-color: MediumSeaGreen;
+    color: White;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+}
+
+button:hover {
+    background-color: SeaGreen;
+}
+
+/* Task List Table Styles */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background-color: White;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+th, td {
+    border: 1px solid LightGray;
+    padding: 12px;
+    text-align: left;
+}
+
+th {
+    background-color: MediumSeaGreen;
+    color: White;
+}
+#updateTaskForm {
+    display: none;
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 16px;
+    border: 1px solid #ddd;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    border-radius: 8px;
+}
+
+#updateTaskForm h2 {
+    text-align: center;
+    color: #333;
+}
+
+#updateTaskForm label {
+    display: block;
+    margin: 10px 0 5px;
+    color: #555;
+}
+
+#updateTaskForm input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+#updateTaskBtn {
+    background-color: MediumSeaGreen;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+#updateTaskBtn:hover {
+    background-color: #45a049;
+}
+.burn {
+    background-image: url("../image/flame.jpeg");
+    background-size: cover;
+    background-position: center;
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+}
+
+/* Media Queries for Responsive Design */
+@media only screen and (max-width: 600px) {
+    .form-container {
+        max-width: 100%;
+    }
+
+    table {
+        overflow-x: auto;
+    }
+}
