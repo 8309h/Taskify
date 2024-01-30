@@ -2,6 +2,11 @@
 
 Welcome to Task Manager API, a simple API for managing tasks.
 
+## Sample Output
+![Task Manager Create Task](./Frontend/image/Screenshot%20(302).png)
+![Task Manager Update Task](./Frontend/image/Screenshot%20(303).png)
+
+
 ## Table of Contents
 - [Getting Started](#getting-started)
   - [Prerequisites](#prerequisites)
@@ -21,7 +26,7 @@ Welcome to Task Manager API, a simple API for managing tasks.
 ### Installation
 1. Clone the repository:
    ```bash
-   git clone https://github.com/8309h/Task_Management.git
+   git clone https://github.com/8309h/Taskify.git
    cd Task_Management
    ```
 
