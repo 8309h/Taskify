@@ -27,7 +27,7 @@ Welcome to Task Manager API, a simple API for managing tasks.
 1. Clone the repository:
    ```bash
    git clone https://github.com/8309h/Taskify.git
-   cd Task_Management
+   cd Backend
    ```
 
 2. Install dependencies:
